@@ -1,7 +1,11 @@
 /*  your css code here. If applicable */
-
-	body{
-    background-color: yellow;
-    align-items: center;
-
+div:before{
+	content: 'Before Element';
+	font-size: 20px;
+	color: red;
+}
+div:after{
+	content: 'After Element';
+	font-size: 20px;
+	color: red;
 }
